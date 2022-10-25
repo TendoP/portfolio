@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  /* color: gold; */
+}
+
+#title {
+  background: black;
+  /* background: linear-gradient(180deg, black 40%, grey); */
+  background-size: cover;
+  padding: 0 12%;
+  color: #FF731D;
+}
+
+.navbar {
+  margin: 0 auto 50px;
+}
+
+.navbar-brand {
+  font-size: 2.2rem;
+  font-weight: bolder;
+  color: #FF731D;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  color: #FF731D;
+  font-size: 1.2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.name {
+  display: block;
+  font-size: 4.5rem;
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
+  color: #FF731D;
+}
+
+.intro-text {
+  padding: 100px 0 50px;
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+}
+
+.title-img {
+  width: 580px;
+  height: 520px;
+  object-fit: cover;
+  position: relative;
+  right: 30px;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #FFBB33;
+  /* background: linear-gradient(180deg, #FFBB33 40%, #FF731D); */
+}
+
+.skill-show {
+  border: solid black;
+  margin: 7% 7%;
+}
+
+.skill-desc {
+  background-color: black;
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.15rem;
+  padding: 3% 5%;
+  line-height: 2;
+}
+
+/* Footer section */
+#footer {
+  text-align: center;
+  background-color: black;
+}
+
+.footer-icon {
+  padding: 50px 10px 30px;
+  color: #FF731D;
+}
+
+.copyright {
+  padding: 0 0 50px;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* Media Query */
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+  }
+}
